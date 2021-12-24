@@ -1,0 +1,36 @@
+.expenses-filter {
+    color: rgb(47, 236, 236);
+    padding: 0 1rem;
+    font-size: 30px;
+    background-color: blue;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .expenses-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .expenses-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .expenses-filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  .selected-year{
+      width: 50%;
+      background-color: dimgrey;
+      padding: 10px;
+      font-size: 30px;
+      color: white;
+      margin: auto;
+  }
